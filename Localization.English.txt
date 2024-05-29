@@ -1,0 +1,84 @@
+.,English
+quest.name,Firstborn
+quest.description,"You are contacted by the sherrif of Innsmouth regarding the strange birth of the firstborn from a wealthy older lady of the county.\n\nBeing a simple birth of a child, the authorities have no foothold to investigate it, but you believe it should be investigated."
+quest.authors_short,Igor Padoim
+quest.authors,Igor Padoim
+quest.synopsys,You are sent to investigate the strange occurence of the firstborn of an older lady in Innsmouth.
+TokenEntryhallExit.text,You fear that, should you leave this place now, you may never again return...
+TokenEntryhallExit.button1,{action} Abandon case
+Event_Abandon0.button1,Continue
+Event_Abandon1.text,"You later find out that the whole of Innsmouth vanished.\n\nIt was not flooded, it was not laid bare by an earthquake. It vanished. Nothing but a new, eeringly deep, bay left in its wake.\n\nYou can only hope that, whatever happened, finished, and is not free and able to lay devastation elsewhere... Lest it should be free due to your negligence.\n\nThe Investigation is not succeeded."
+Event_Abandon0.text,You abandon the house and, hence, the case...
+Event_Abandon1.button1,Continue
+Event__Begin0.button1,Continue
+Event__Begin2.text,"You arrive at Innsmouth, at the given address and knock at the door.\n\nOpposed to what the sherrif had said, no response happens.\n\nYou also try and check if the door is locked..."
+Event__Begin1.text,|||You find, amongst the "post scriptum", that a large sum of money is to be had, should this investigation come to an end, and the sherrif is adamant that no legal repercussions would come to you.\n\nSo, you pack your stuff and go to Innsmouth.|||
+Event__Begin1.button1,Continue
+Event__Begin0.text,|||Sherrif Lanney, chief of the county of Innsmouth, contact you in a hurried letter.\n\n"Esteemed colleague,\n\nI am the head of this county and find myself troubled by coloquial findings that should be all but mundane, yet none but me find it disturbing.\n\nLady Alice, last remaining heir of the Luxley housestead, was a known spinster of this town, livin alone in her modest state, seemingly waiting for the end of her days or her fortune.\n\nBesides being held high in gossip circles, she was a quiet and god fearing christian, lending her wealthy hand to the her lessers - and do we have many of those here, I tell you!\n\nDespite being in her late sixties and far best her motherly days, she has been seen, in the last few weeks, worringly pregnant. Fastly so, I must add! Last mass, she carried herself with the utmost of efforts, given her abnormally inflated abdomen.\n\nSince this last appearance, no news circle of her.\n\nShe replies, from behind her tightly locked doors, so we assume her alive. Most trust on 'well' just as much - but not me.\n\nHer house is never silent, and neighboors complain unerringly of late nights of broken porcelains and yells. Most worried still, her windows sometimes glow in the dead of night with a color I've never seen before.\n\nHelp me uncover what hell she may have birthed into our world."|||
+Event__Begin2.button1,Open the door
+Event__Begin3.text,"The door, which was not locked, opens to an ascending stair, leading deeper into the house.\n\nPlace the {c:TileEntryhall} as indicated."
+Event__Begin3.button1,Continue
+Event__Begin4.text,"The stair lands in a hall with three exits.\n\nPlace the {c:TileBath}, and Explore Tokens, as indicated."
+Event__Begin4.button1,Continue
+Event__Begin5.text,Many paintings and photographs adorn the walls. Place a Search Token as indicated.
+Event__Begin5.button1,Continue
+Event__Begin6.text,Crimson stains the landing of the stair. Place a Search Token as indicated.
+Event__Begin6.button1,Continue
+Event__Begin7.text,All the Investigators start at the foot of the stair.
+Event__Begin7.button1,Continue
+Event__Begin8.text,"The house is quiet for now, quiet as the dead.\n\nThe night arrives swiftly, so who knows how much longer the silence will last...\n\nEach Investigator begins with 2{clue}."
+Event__Begin8.button1,Continue
+TokenSearchEntryPaintings.text,Several pictures, both old and new, hang from the walls.
+TokenSearchEntryPaintings.button1,{action} Investigate
+EventEntryPaintingsTest.text,The images shift in and out of focus, and you find it difficult to inspect them. Test {observation}.
+EventEntryPaintingsTest.button1,Continue
+EventEntryPaintingsTest_Success.button1,Continue
+EventEntryPaintingsTest_Failure.text,Your mind simply cannot grasp what these pictures represent.
+EventEntryPaintingsTest_Success.text,"You force your mind to fixate on the details and, suddenly, the pictures come into focus.\n\nMany, many generations of people with the exact same poised femme face are on display on the walls. It is as if one single individual is living as many generations of the same female character.\n\nCould the Luxleys be one immortal being? Or is it something more sinister behind this?\n\nReceive 2{clue} then remove this Search Token."
+EventEntryPaintingsTest_Failure.button1,Continue
+TokenSearchBathBlood.text,A large splash of maroon stains most of the floor from inside the door to the east.
+TokenSearchBathBlood.button1,{action} Investigate
+EventBathBloodTest.text,This must be blood, no other liquids taints wood as blood. What gore must have created this nauseates you deeply. Test your {strength}.
+EventBathBloodTest.button1,Continue
+EventBathBloodTest_Failure.text,You vomit acid and bile in large amounts. Suffer one face-down Horror.
+EventBathBloodTest_Failure.button1,Continue
+EventBathBloodTest_Success.text,"You endure and swallow your vomit before it comes out. It would take 3 to 4 liters of blood to taint the floor as it is now. No human would survive such a bleeding...\n\nGain 1{clue} and remove this Search Token."
+EventBathBloodTest_Success.button1,Continue
+TokenDoorBathroom.text,Quiet reigns behind this door.
+TokenDoorBathroom.button1,{action} Open
+EventOpenBathroom1.text,"Stench wins this fight. Any Investigators in the {c:TileBath} suffer one Horror.\n\nThe interior of the bathroom reveals still humid and decaying blood everywhere."
+EventOpenBathroom1.button1,Continue
+EventOpenBathroom2.text,"A bathtub contains blood, bones, and ligaments that have overflown it long ago. Now, it is only left to rot, and rotting it is.\n\nPlace the Search Token as indicated."
+EventOpenBathroom2.button1,Continue
+EventOpenBathroom3.text,"A clean blade rests upon the corner sink.\n\nPlace a Search Token as indicated."
+EventOpenBathroom3.button1,Continue
+Event_YouMayEnter.text,You may move one space into the opened room.
+Event_YouMayEnter.button1,Continue
+TokenSearchBathBlade.text,This blade is cleaner than if it was recently forged. Something is not right about it.
+TokenSearchBathBlade.button1,{action} Examine
+EventBathBladeTest.text,You can almost recall why this blade is not as alien to you as it should be. Test your {lore}.
+EventBathBladeTest.button1,Continue
+EventBathBladeTest_Failure.text,You cannot locate from where you remember this dagger. You dare not touch it for now, too.
+EventBathBladeTest_Failure.button1,Continue
+EventBathBladeTest_Success.text,"This is a ritual blade long sought by many scholars. Its latest mention, at a Miskatonic lecture earlier this year, claimed it as the executioner's tool of many recent murders, which cases are still open.\n\nThey also claimed it as most likely safe, as long as you are on the blunt end of it.\n\nReceive 2{clue} and the {c:QItemRitualDagger} common item. Remove this Search Token."
+EventBathBladeTest_Success.button1,Continue
+TokenSearchBathTub.text,"The contents of this bathtub are beyond anything you have ever seen, or even read about.\n\nYou could try and search it..."
+TokenSearchBathTub.button1,{action} Investigate
+EventBathTubTest.text,"To better understand what hell created this waking nightmare, you can only imagine rummaging manually through it.\n\nTest your {will}-1."
+EventBathTubTest.button1,Continue
+EventBathTubTest_Failure.text,You find nothing while you reflect upon your life choices.
+EventBathTubTest_Failure.button1,Continue
+EventBathTubTest_Success.text,"You find many, many bones, half-rotten viscera, and a living nightmare of gellified blood.\n\nThis experience will haunt untill beyond death, of course, but it also teaches you some form of arcane knowledge.\n\nYou learn {c:QItemFleshWard} and receive 2{clue}. Remove this Search Token."
+EventBathTubTest_Success.button1,Continue
+TokenDoorKitchen.text,The faintest of noises can sometimes be heard behind this door.
+TokenDoorKitchen.button1,{action} Open
+EventOpenKitchen1.text,"You open the door to show a common kitchen covered in a thick layer of dust.\n\nPlace the {c:TileKitchen} as indicated."
+EventOpenKitchen1.button1,Continue
+EventOpenKitchen2.text,"A door leads deeper into the house.\n\nPlace an Explore Token as indicated."
+EventOpenKitchen2.button1,Continue
+EventOpenKitchen3.text,"Dust covers everything in this room - is Lady Alice really alive?\n\nPlace the Search Token as indicated."
+EventOpenKitchen3.button1,Continue
+TokenSearchKitchenDust.text,Dust covers everything, implicating no one using the kitchen in a long time.
+TokenSearchKitchenDust.button1,{action} Investigate
+EventKitchenDustResult.text,"Under the covering of dust, you find an old notebook.\n\nReceive the {c:QItemOldJournal} and remove this Search Token.\n\nThe Investigator in possession of this journal may spend one {action} to read it."
+EventKitchenDustResult.button1,Continue

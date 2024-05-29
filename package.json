@@ -1,0 +1,16 @@
+{
+  "name": "valkyrie-firstborn",
+  "description": "A try at scenario composing for Valkyrie",
+  "version": "0.1.0",
+  "maintainers": [
+    {
+      "name": "Igor Padoim",
+      "email": "igorpadoim@gmail.com",
+      "web": "https://nereare.com/"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/Nereare/valkyrie-firstborn/issues"
+  },
+  "license": "MIT"
+}
