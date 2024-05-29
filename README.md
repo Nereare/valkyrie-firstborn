@@ -4,7 +4,9 @@
 [![License](https://img.shields.io/github/license/Nereare/valkyrie-firstborn.svg)](LICENSE.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE-OF-CONDUCT.md)
 
-> You are contacted by the sherrif of Innsmouth regarding the strange birth of the firstborn from a wealthy older lady of the county.\n\nBeing a simple birth of a child, the authorities have no foothold to investigate it, but you believe it should be investigated.
+> You are contacted by the sherrif of Innsmouth regarding the strange birth of the firstborn from a wealthy older lady of the county.
+> 
+> Being a simple birth of a child, the authorities have no foothold to investigate it, but you believe it should be investigated.
 
 A try at scenario composing for Valkyrie.
 
