@@ -12,7 +12,7 @@ Event_Abandon0.text,You abandon the house and, hence, the case...
 Event_Abandon1.button1,Continue
 Event__Begin0.button1,Continue
 Event__Begin2.text,"You arrive at Innsmouth, at the given address and knock at the door.\n\nOpposed to what the sherrif had said, no response happens.\n\nYou also try and check if the door is locked..."
-Event__Begin1.text,|||You find, amongst the "post scriptum", that a large sum of money is to be had, should this investigation come to an end, and the sherrif is adamant that no legal repercussions would come to you.\n\nSo, you pack your stuff and go to Innsmouth.|||
+Event__Begin1.text,"You find, amongst the [i]post scriptum[/i], that a large sum of money is to be had, should this investigation come to an end, and the sherrif is adamant that no legal repercussions would come to you.\n\nSo, you pack your stuff and go to Innsmouth."
 Event__Begin1.button1,Continue
 Event__Begin0.text,|||Sherrif Lanney, chief of the county of Innsmouth, contact you in a hurried letter.\n\n"Esteemed colleague,\n\nI am the head of this county and find myself troubled by coloquial findings that should be all but mundane, yet none but me find it disturbing.\n\nLady Alice, last remaining heir of the Luxley housestead, was a known spinster of this town, livin alone in her modest state, seemingly waiting for the end of her days or her fortune.\n\nBesides being held high in gossip circles, she was a quiet and god fearing christian, lending her wealthy hand to the her lessers - and do we have many of those here, I tell you!\n\nDespite being in her late sixties and far best her motherly days, she has been seen, in the last few weeks, worringly pregnant. Fastly so, I must add! Last mass, she carried herself with the utmost of efforts, given her abnormally inflated abdomen.\n\nSince this last appearance, no news circle of her.\n\nShe replies, from behind her tightly locked doors, so we assume her alive. Most trust on 'well' just as much - but not me.\n\nHer house is never silent, and neighboors complain unerringly of late nights of broken porcelains and yells. Most worried still, her windows sometimes glow in the dead of night with a color I've never seen before.\n\nHelp me uncover what hell she may have birthed into our world."|||
 Event__Begin2.button1,Open the door
@@ -46,7 +46,7 @@ EventBathBloodTest_Success.text,"You endure and swallow your vomit before it com
 EventBathBloodTest_Success.button1,Continue
 TokenDoorBathroom.text,Quiet reigns behind this door.
 TokenDoorBathroom.button1,{action} Open
-EventOpenBathroom1.text,"Stench wins this fight. Any Investigators in the {c:TileBath} suffer one Horror.\n\nThe interior of the bathroom reveals still humid and decaying blood everywhere."
+EventOpenBathroom1.text,"Stench wins this fight. Any Investigators in the {c:TileBath} suffer one Horror.\n\nThe interior of the bathroom reveals still humid and decaying blood everywhere.\n\nRemove this Search Token."
 EventOpenBathroom1.button1,Continue
 EventOpenBathroom2.text,"A bathtub contains blood, bones, and ligaments that have overflown it long ago. Now, it is only left to rot, and rotting it is.\n\nPlace the Search Token as indicated."
 EventOpenBathroom2.button1,Continue
@@ -70,15 +70,24 @@ EventBathTubTest_Failure.text,You find nothing while you reflect upon your life 
 EventBathTubTest_Failure.button1,Continue
 EventBathTubTest_Success.text,"You find many, many bones, half-rotten viscera, and a living nightmare of gellified blood.\n\nThis experience will haunt untill beyond death, of course, but it also teaches you some form of arcane knowledge.\n\nYou learn {c:QItemFleshWard} and receive 2{clue}. Remove this Search Token."
 EventBathTubTest_Success.button1,Continue
-TokenDoorKitchen.text,The faintest of noises can sometimes be heard behind this door.
-TokenDoorKitchen.button1,{action} Open
-EventOpenKitchen1.text,"You open the door to show a common kitchen covered in a thick layer of dust.\n\nPlace the {c:TileKitchen} as indicated."
+TokenSightKitchen1.button1,Button1
+TokenSightKitchen2.button1,Button1
+TokenDoorKitchen.button1,{action} Explore
+TokenDoorKitchen.text,You hear faint eventual noises behind this door.
+EventOpenKitchen1.text,"A room with a large, seemingly unused, table opens before you. The noises are now discerneable, of eventual metals clinking, seemingly of pans colliding.\n\nPlace the {c:TileKitchen}, with the appropriate walls, as indicated and remove this Search Token."
 EventOpenKitchen1.button1,Continue
-EventOpenKitchen2.text,"A door leads deeper into the house.\n\nPlace an Explore Token as indicated."
+EventOpenKitchen2.text,"You could search what is causing the noises through either the open counter or the entryway further inside, neither of which is closed.\n\nPlace the Sight Tokens as indicated."
 EventOpenKitchen2.button1,Continue
-EventOpenKitchen3.text,"Dust covers everything in this room - is Lady Alice really alive?\n\nPlace the Search Token as indicated."
+EventOpenKitchen3.text,"No blood taints this room, but a plethora of dust covers it all. A weird pile of dust on the table could prove useful.\n\nPlace the Search Token as indicated."
 EventOpenKitchen3.button1,Continue
-TokenSearchKitchenDust.text,Dust covers everything, implicating no one using the kitchen in a long time.
+TokenSearchKitchenDust.text,An uneven pile of dust can be investigated.
 TokenSearchKitchenDust.button1,{action} Investigate
-EventKitchenDustResult.text,"Under the covering of dust, you find an old notebook.\n\nReceive the {c:QItemOldJournal} and remove this Search Token.\n\nThe Investigator in possession of this journal may spend one {action} to read it."
+EventKitchenDustResult.text,"A cloud of dust takes flight as you mobilize it, revealing a hefty tome of ancient origin.\n\nReceive the {c:QItemOldJournal} special item and remove this Search Token."
 EventKitchenDustResult.button1,Continue
+EventReadOldJournal1.button1,{action} Read
+EventReadOldJournal1.button2,Read
+EventReadOldJournal1.text,An old tome seemingly older than this country, previously left behind and gathering dust.
+EventReadOldJournal2.text,First counting
+EventReadOldJournal2.button1,Continue
+EventReadOldJournal_Pg1.button1,Button1
+EventReadOldJournal1.button3,Cancel
