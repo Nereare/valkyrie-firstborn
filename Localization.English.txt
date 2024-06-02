@@ -78,16 +78,121 @@ EventOpenKitchen1.text,"A room with a large, seemingly unused, table opens befor
 EventOpenKitchen1.button1,Continue
 EventOpenKitchen2.text,"You could search what is causing the noises through either the open counter or the entryway further inside, neither of which is closed.\n\nPlace the Sight Tokens as indicated."
 EventOpenKitchen2.button1,Continue
-EventOpenKitchen3.text,"No blood taints this room, but a plethora of dust covers it all. A weird pile of dust on the table could prove useful.\n\nPlace the Search Token as indicated."
-EventOpenKitchen3.button1,Continue
+EventOpenKitchen20.button1,Continue
 TokenSearchKitchenDust.text,An uneven pile of dust can be investigated.
 TokenSearchKitchenDust.button1,{action} Investigate
 EventKitchenDustResult.text,"A cloud of dust takes flight as you mobilize it, revealing a hefty tome of ancient origin.\n\nReceive the {c:QItemOldJournal} special item and remove this Search Token."
 EventKitchenDustResult.button1,Continue
-EventReadOldJournal1.button1,{action} Read
-EventReadOldJournal1.button2,Read
-EventReadOldJournal1.text,An old tome seemingly older than this country, previously left behind and gathering dust.
-EventReadOldJournal2.text,First counting
-EventReadOldJournal2.button1,Continue
+EventReadOldJournal0.button2,Read
+EventReadOldJournal0.text,An old tome seemingly older than this country, previously left behind and gathering dust.
+EventReadOldJournal0.button3,Cancel
+EventReadOldJournal1.button1,Continue
+EventReadOldJournal1_2.text,|||"July 27th, 1627.\n\nThe old well in the property!\n\nOf all places, how come such a mundane one would contain a possibility of answer.\n\nThe voice within whispered hidden truths... Hiddeous, but truths, nevertheless...\n\nThe Luxleys will be no more, as long as I follow the voice's guidance to letter!"\n\nThe journal keeps on going.|||
 EventReadOldJournal_Pg1.button1,Button1
-EventReadOldJournal1.button3,Cancel
+EventReadOldJournal1.text,|||"July 11th, 1627.\n\nThis old flesh of mine can keep on living for but a few seasons, this I know now. It is abhorrent, though, and I find it unacceptable.\n\nI must keep on seeking ways to not be bound by such frivolous restrains."\n\nOld blood stains, half rotten by the ages since past, dot the margins of the pages.|||
+EventReadOldJournal1_2.button1,{action} Read
+EventReadOldJournal_Pg2.button1,Button1
+EventReadOldJournal0.button1,{action} Read
+EventReadOldJournal1_2.button2,Read
+EventReadOldJournal2.text,"August 3rd, 1627.\n\nLuxley Junior did not even scream. It was silent... Whispered, much like to my master's taste. He will never again be able to scream, too.\n\nHis mother, Lady Luxley, is gravely ill. My master is right, it would not be right to allow her to wallow in such a sorrow. I can help her.\n\nI will help her."
+EventReadOldJournal2.button1,Continue
+EventReadOldJournal2_2.text,|||"August 7th, 1627.\n\nMother and son are once again reunited. The county is not even suspecting ill play, at this point. The people are much more afraid of a disease...\n\n...Or a curse...\n\nThis latter, maybe, could be right.\n\nI feel my flesh younger, my vigour replenished... My womb full..."\n\nThere is still more in this tome.|||
+EventReadOldJournal2_2.button1,{action} Read
+EventReadOldJournal2_2.button2,Read
+EventReadOldJournal_Pg3.button1,Button1
+EventReadOldJournal3.text,|||"September 21st, 1627.\n\nLord Luxley grieves no more.\n\nI am now his wife, and there is nothing more that he may have lost that I have not returned to him: a young and virginal wife, and a future son and heir.\n\nHe will never discover that my teenage looks are a gift from my master, nor will he discover my firstborn."\n\nThere seems to be one last entry, still.|||
+EventReadOldJournal3.button1,{action} Read
+EventReadOldJournal3.button2,Read
+EventReadOldJournal_Pg4.button1,Button1
+EventReadOldJournal4.text,"January 16th, 1681.\n\nDearest child... How could you suspect anything?\n\nMaster works in mysterious ways, and I will carry our new generaion in my womb, as you will marry me - now not your mother any more, but your virginal wife."
+EventReadOldJournal4.button1,Continue
+EventReadOldJournal4_2.text,|||Many, many more entries follow, now only every sixty years or so.\n\nAlways the same handwritting, always the same nauseous story: the narrator marrying and giving birth to a new generation of Luxleys, with an eventual mention of one "firstborn" that always seems to loom to the sides.|||
+EventReadOldJournal4_2.button1,Continue
+EventReadOldJournal4_2Finish.text,Receive 2{clue}.
+EventReadOldJournal4_2Finish.button1,Continue
+EventReadOldJournal4_3.text,The last entry was 68 years ago. No more entries remain.
+EventReadOldJournal4_3.button1,Continue
+EventReadOldJournal1_2.button3,Cancel
+EventReadOldJournal2_2.button3,Cancel
+EventReadOldJournal3.button3,Cancel
+EventSightKitchen.text,You may look to see whatever may be causing a ruckus.
+EventSightKitchen.button1,Check
+EventOpenInnerKitchen1.text,"The kitchen proper is in utter disarray, and you now can see why.\n\nRemove both Sight Tokens."
+EventOpenInnerKitchen1.button1,Continue
+SpawnChild1.button1,Continue
+SpawnChild1.text,An unimaginable horror is flying through the kitchen. It also recognizes you.
+EventOpenInnerKitchen3.text,"Blood also litters the floor in the kitchen.\n\nPlace a Search Token as indicated."
+EventOpenInnerKitchen3.button1,Continue
+TokenSearchKitchenBlood.text,A gore of blood is in this room as well.
+TokenSearchKitchenBlood.button1,{action} Investigate
+EventKitchenBloodTest.text,You must search this pile of gore. Test your {observation}.
+EventKitchenBloodTest.button1,Continue
+EventKitchenBloodTest_Success.text,You find a ripped-off page amogst the gore. It radiates arcane knowledge. Receive the {c:QItemShrieveling} spell and remove this Search Token.
+EventKitchenBloodTest_Success.button1,Continue
+EventKitchenBloodTest_Failure.text,You rummage through the gore, but is unable to find anything.
+EventKitchenBloodTest_Failure.button1,Continue
+TokenDoorLiving.text,No sounds can be heard beyond.
+TokenDoorLiving.button1,{action} Open
+EventOpenLiving1.text,"The door opens to reaveal a wide living room with lavish, albeit old, furniture.\n\nPlace the {c:TileLivingRoom} as indicated and remove this Token."
+EventOpenLiving1.button1,Continue
+EventOpenLiving2.text,"An acient, almost decrepit, person lounges unaturally on the love seat. This is Lady Alice Luxley.\n\nPlace a Person Token as indicated."
+EventOpenLiving2.button1,Continue
+EventOpenLiving3.text,"What must be a family painting hangs from the wall to your right.\n\nPlace a Search Token as indicated."
+EventOpenLiving3.button1,Continue
+EventOpenLiving4.text,"The windows open to the outside world.\n\nPlace a Sight Token as indicated."
+EventOpenLiving4.button1,Continue
+EventOpenLiving5.text,"A door leads deeper into the house.\n\nPlace a Interact Token as indicated."
+EventOpenLiving5.button1,Continue
+TokenSearchLivingPainting.text,The painting seems in disarray, as if the universe took it out of order. Solve the puzzle using {will}.
+TokenSearchLivingPainting.button1,Continue
+PuzzleLivingPainting.button1,Solve
+EventSearchLivingPainting_Result.text,"The woman in the picture seems like a younger version of the one in this room, even if the painting seems as if from a century ago.\n\nReceive 2{clue} and remove this Token."
+EventSearchLivingPainting_Result.button1,Continue
+TokenAliceLuxley.text,"The woman in the seat is breathing extremely slowly. Her eyes are wide and unblinking, fixed somewhere in the distace beyond these walls.\n\nShe seems much more like an empty husk of whatever she may have one been."
+TokenAliceLuxley.button1,{action} Are you okay?
+TokenAliceLuxley.button2,{action} What has happened here?
+EventAliceLuxley_1.button1,Continue
+EventAliceLuxley_2.text,She takes one deep breath, but doesn't seem to acknowledge you.
+EventAliceLuxley_1.text,She seems unfazed by your question.
+EventAliceLuxley_2.button1,Continue
+TokenAliceLuxley.button3,{action} Are you the lady in that painting?
+EventAliceLuxley_3.text,|||Her eyes seem to find yours. After a deep breath, a raspy and lifeless voice replies.\n\n"I... was."\n\nAfter a minute passes and you begin to think this was the whole answer.\n\n"Three generation ago... Bernadette... Huxley...\n\nI am Alice, now."\n\nHer eyes go back to the previous unidentifiable point.\n\n"But master will forsake me now..."\n\nReceive 1{clue}.|||
+EventAliceLuxley_3.button1,Continue
+TokenAliceLuxley.button4,{action} How old are you?
+EventAliceLuxley_4.text,|||"Old..." Her eyes focus briefly on you. "Thirty six... Decades... Old."\n\nGain 1{clue}.|||
+EventAliceLuxley_4.button1,Continue
+TokenDoorBedHall.text,The door is unlocked.
+TokenDoorBedHall.button1,{action} Open
+EventOpenBedHall1.text,"The door reveals a short hallway.\n\nPlace the {c:TileBedrooms} as indicated, with the appropriate wall, and remove this Token."
+EventOpenBedHall1.button1,Continue
+EventOpenBedHall2.text,Several doors lead deeper still into the house.
+EventOpenBedHall2.button1,Continue
+EventDoorBed1Locked.button1,Continue
+TokenDoorBed1.button1,Button1
+EventDoorBed1Locked.text,The door seems locked.
+TokenDoorBed2.text,This door is unlocked.
+TokenDoorBed2.button1,{action} Open
+EventOpenBed2_1.text,"By now, you are unfazed by the gore you find inside. The door opens to reveal a single bed and minimal furniture.\n\nRemove this Token."
+EventOpenBed2_1.button1,Continue
+EventOpenBed2_2.text,"The mattress is saturated with blood.\n\nPlace a Search Token as indicated."
+EventOpenBed2_2.button1,Continue
+TokenBed2Blood.text,Amidst the gore, you find a small locked jewelry box. You may solve it with {agility}.
+TokenBed2Blood.button1,Continue
+EventSearchBed2Box_Result.text,"You open the box to find a key.\n\nReceive the {c:QItemKeys}, 1{clue}, and remove this Token."
+PuzzleBed2Box.button1,Solve
+EventSearchBed2Box_Result.button1,Continue
+EventDoorBed1Unlocked.text,The Investigator with the {c:QItemKeys} may open this door.
+EventDoorBed1Unlocked.button1,{action} Open
+EventOpenBed1_1.text,"This room seems unused... for decades. Dust and cobwebs cover everything.\n\nA single bed, sized for a child fills most of the room, together with a handful of old lavish furniture.\n\nRemove this Token."
+EventOpenBed1_1.button1,Continue
+SpawnChild2.button1,Continue
+EventOpenKitchen20.text,"No blood taints this room, but a plethora of dust covers it all. A weird pile of dust on the table could prove useful.\n\nPlace the Search Token as indicated."
+EventOpenBed1_2.text,"Some papers lay forgotten on the corner furniture.\n\nPlace the Search Token as indicated."
+EventOpenBed1_2.button1,Continue
+SpawnChild2.text,"The bed contains the almost fully decomposed skeleton of a child. It must be dead for over 20 years.\n\nAs soon as the door is unlocked, the skeleton stirs unaturally, and from it emerges a flying monster."
+EventChild1_Killed.text,The dying shriek of the creature makes you question your sanity.
+EventChild1_Killed.button1,Continue
+EventChild2_Killed.text,The monster dissolves into blood - a blood much like that you have found around the house before.
+EventChild2_Killed.button1,Continue
+TokenDoorStorage.button1,{action} Open
+TokenDoorStorage.text,The door is unlocked, but a little jammed.
